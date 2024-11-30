@@ -48,7 +48,7 @@ Spotify API Endpoints:
  
 ->Data will be retrieved using the Spotify API and processed with Python's `spotipy` library. The data will then be structured into a Pandas DataFrame for easier manipulation and analysis.
 
- 3. Data Analysis:
+ 2. Data Analysis:
 
 -> Exploratory Data Analysis (EDA):
 
