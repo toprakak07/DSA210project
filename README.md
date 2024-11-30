@@ -43,9 +43,13 @@ Spotify API Endpoints:
 
  3.Visualization:
 Music listening habits will be visualized using the following techniques:
+
 -> Bar Charts: To display the most frequently listened-to genres and artists.
+
 -> Heatmaps: To visualize the intensity of music listening habits throughout the day.
+
 ->Line Graphs: To analyze changes in musical tastes over the years.
+
 -> Scatter Plots: To explore the relationship between listening times and genres.
 
 Visualization tools:
