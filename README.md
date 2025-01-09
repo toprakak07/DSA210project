@@ -1,17 +1,15 @@
 
 Step Count Analysis Project
-
 About the Project (Motivation)
 This project analyzes personal step count data collected over the years, aiming to answer the following questions:
 
-->What are my daily, weekly, and monthly activity patterns?
-->How do my step counts vary by season?
-->Is there a noticeable difference in activity between weekdays and weekends?
-->Can I predict future step counts using machine learning models?
-->Are there any trends or correlations in my activity over time (e.g., increasing or decreasing levels of activity)?
-
+What are my daily, weekly, and monthly activity patterns?
+How do my step counts vary by season?
+Is there a noticeable difference in activity between weekdays and weekends?
+Can I predict future step counts using machine learning models?
+Are there any trends or correlations in my activity over time (e.g., increasing or decreasing levels of activity)?
 Understanding personal activity patterns can provide valuable insights into overall health and fitness. By analyzing this data, I aim to improve my physical activity and set better goals for the future.
---------------------------------------------------------------------------------------------------------------------------
+
 Data Source
 The data used in this project is personal step count data collected between 2022 and 2024 from a fitness tracker or mobile application. The data contains the following fields:
 
