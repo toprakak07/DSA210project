@@ -1,4 +1,3 @@
-
 Step Count Analysis Project
 About the Project (Motivation)
 This project analyzes personal step count data collected over the years, aiming to answer the following questions:
@@ -35,23 +34,16 @@ Seasonal trends: Explored how step counts vary by season (spring, summer, fall, 
 3. Visualization
 Step count patterns and trends have been visualized using various techniques to gain deeper insights into the data:
 
-Bar Charts:
-To display the average step count by day of the week and season.
-Line Graphs:
-To visualize step count trends over time (monthly and yearly).
-Boxplots:
-To detect outliers and understand the variability in step counts.
-Heatmaps:
-To show the correlation between different time periods and step counts.
+Bar Charts: Display the average step count by day of the week and season.
+Line Graphs: Visualize step count trends over time (monthly and yearly).
+Boxplots: Detect outliers and understand the variability in step counts.
+Heatmaps: Show the correlation between different time periods and step counts.
 4. Machine Learning Models
 The project uses machine learning models to predict future step counts:
 
-Linear Regression:
-A simple model to predict step counts based on time features (year, month, day).
-Polynomial Regression:
-A more complex model to capture non-linear patterns in step count data.
-Model Comparison:
-Both models were evaluated using Mean Absolute Error (MAE) and R² score to determine the best-performing model.
+Linear Regression: A simple model to predict step counts based on time features (year, month, day).
+Polynomial Regression: A more complex model to capture non-linear patterns in step count data.
+Model Comparison: Both models were evaluated using Mean Absolute Error (MAE) and R² score to determine the best-performing model.
 Goals
 The main goals of this project are:
 
