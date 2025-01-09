@@ -7,19 +7,19 @@ About the Project (Motivation)
 
 This project analyzes personal step count data collected over the years, aiming to answer the following questions:
 
-What are my daily, weekly, and monthly activity patterns?
+->What are my daily, weekly, and monthly activity patterns?
 
-How do my step counts vary by season?
+->How do my step counts vary by season?
 
-Is there a noticeable difference in activity between weekdays and weekends?
+->Is there a noticeable difference in activity between weekdays and weekends?
 
-Can I predict future step counts using machine learning models?
+->Can I predict future step counts using machine learning models?
 
-Are there any trends or correlations in my activity over time (e.g., increasing or decreasing levels of activity)?
+->Are there any trends or correlations in my activity over time (e.g., increasing or decreasing levels of activity)?
 
 Understanding personal activity patterns can provide valuable insights into overall health and fitness. By analyzing this data, I aim to improve my physical activity and set better goals for the future.
 
-
+--------------------------------------------------------------------------------------------------------------------------
 Data Source
 
 The data used in this project is personal step count data collected between 2022 and 2024 from a fitness tracker or mobile application. The data contains the following fields:
@@ -32,7 +32,7 @@ The data used in this project is personal step count data collected between 2022
 
 -The data has been processed and structured into a Pandas DataFrame for easier analysis and visualization.
 
-
+--------------------------------------------------------------------------------------------------------------------------
 
 Project Plan
 1. Data Collection
@@ -83,10 +83,11 @@ Project Plan
 
 ->Model Comparison: Both models were evaluated using Mean Absolute Error (MAE) and R² score to determine the best-performing model.
 
+--------------------------------------------------------------------------------------------------------------------------
 
 Goals
 
--The main goals of this project are:
+The main goals of this project are:
 
 ->Understand personal activity patterns by analyzing daily, weekly, and seasonal trends in step counts.
 
@@ -107,6 +108,7 @@ The following tools and technologies were used in this project:
 ->Matplotlib and Seaborn: For creating customized and aesthetically pleasing visualizations
 
 ->Scikit-Learn: For building and evaluating machine learning models
+--------------------------------------------------------------------------------------------------------------------------
 
 Future Work
 
