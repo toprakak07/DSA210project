@@ -49,11 +49,11 @@ Project Plan
 
 ->General Statistics: Computed key statistics such as mean, median, and standard deviation of step counts.
 
-->Distribution Analysis:
+->Distribution Analysis: Daily Patterns: Identified variations in step counts by time of day (morning, afternoon, evening).
 
 ->Analyzed the overall distribution of step counts using histograms and boxplots.
 
-->ime-Based Analysis:
+->Time-Based Analysis:
 
 ->Daily patterns: Identified variations in step counts by time of day (morning, afternoon, evening).
 
@@ -63,7 +63,7 @@ Project Plan
 
 3. Visualization
    
-->Step count patterns and trends have been visualized using various techniques to gain deeper insights into the data:
+Step count patterns and trends have been visualized using various techniques to gain deeper insights into the data:
 
 ->Bar Charts: Display the average step count by day of the week and season.
 
@@ -73,17 +73,40 @@ Project Plan
 
 ->Heatmaps: Show the correlation between different time periods and step counts.
 
-4. Machine Learning Models
+
+----------------------------------------------------------------------------------------------------------------------
+
+Statistical Analysis
+
+1. ANOVA Test
+
+->To assess whether there is a significant difference in step counts across different seasons, an ANOVA test was conducted. The test resulted in an F-value and a p-value, which indicated whether the differences were statistically significant
+
+2. Mevsimsel Korelasyon Analizi
+   
+->A seasonal correlation analysis was performed to understand the similarity in step counts across different years for each season. The correlation heatmap visually represents how step counts vary between years based on seasonal patterns.
+
+----------------------------------------------------------------------------------------------------------------------
+
+
+Machine Learning Models
 
 ->The project uses machine learning models to predict future step counts:
 
-->Linear Regression: A simple model to predict step counts based on time features (year, month, day).
+1.Linear Regression:
 
-->Polynomial Regression: A more complex model to capture non-linear patterns in step count data.
+->A simple model to predict step counts based on time features (year, month, day).
 
-->Model Comparison: Both models were evaluated using Mean Absolute Error (MAE) and R² score to determine the best-performing model.
+->The model was evaluated using Mean Absolute Error (MAE) and R² score.
 
---------------------------------------------------------------------------------------------------------------------------
+2. Model Results
+The following performance metrics were obtained for the linear regression model:
+
+-->Mean Absolute Error (MAE): 43332.41
+->R² Score: -0.536
+(best regression model is this for this project. in the future, with more crowded data, will work better.)
+
+----------------------------------------------------------------------------------------------------------------------
 
 Goals
 
