@@ -108,6 +108,7 @@ The following tools and technologies were used in this project:
 ->Matplotlib and Seaborn: For creating customized and aesthetically pleasing visualizations
 
 ->Scikit-Learn: For building and evaluating machine learning models
+
 --------------------------------------------------------------------------------------------------------------------------
 
 Future Work
