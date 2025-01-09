@@ -21,99 +21,99 @@ Understanding personal activity patterns can provide valuable insights into over
 
 
 Data Source
+
 The data used in this project is personal step count data collected between 2022 and 2024 from a fitness tracker or mobile application. The data contains the following fields:
 
-startDate: The starting time of the activity (in datetime format)
+->startDate: The starting time of the activity (in datetime format)
 
-endDate: The ending time of the activity (in datetime format)
+->endDate: The ending time of the activity (in datetime format)
 
-value: The total number of steps taken during the activity period
+->value: The total number of steps taken during the activity period
 
-The data has been processed and structured into a Pandas DataFrame for easier analysis and visualization.
+-The data has been processed and structured into a Pandas DataFrame for easier analysis and visualization.
 
 
 
 Project Plan
 1. Data Collection
    
-The step count data was exported from a fitness tracker application.
+->The step count data was exported from a fitness tracker application.
 
-The data was cleaned and structured into a format suitable for analysis using Python’s Pandas library.
+->The data was cleaned and structured into a format suitable for analysis using Python’s Pandas library.
 
-3. Data Analysis
+2. Data Analysis
 
-Exploratory Data Analysis (EDA)
+->Exploratory Data Analysis (EDA)
 
-Missing Data: Checked for missing values and handled them appropriately.
+->Missing Data: Checked for missing values and handled them appropriately.
 
-General Statistics: Computed key statistics such as mean, median, and standard deviation of step counts.
+->General Statistics: Computed key statistics such as mean, median, and standard deviation of step counts.
 
-Distribution Analysis:
+->Distribution Analysis:
 
-Analyzed the overall distribution of step counts using histograms and boxplots.
+->Analyzed the overall distribution of step counts using histograms and boxplots.
 
-Time-Based Analysis:
+->ime-Based Analysis:
 
-Daily patterns: Identified variations in step counts by time of day (morning, afternoon, evening).
+->Daily patterns: Identified variations in step counts by time of day (morning, afternoon, evening).
 
-Weekly patterns: Analyzed differences in step counts between weekdays and weekends.
+->Weekly patterns: Analyzed differences in step counts between weekdays and weekends.
 
-Seasonal trends: Explored how step counts vary by season (spring, summer, fall, winter).
+->Seasonal trends: Explored how step counts vary by season (spring, summer, fall, winter).
 
-5. Visualization
+3. Visualization
    
-Step count patterns and trends have been visualized using various techniques to gain deeper insights into the data:
+->Step count patterns and trends have been visualized using various techniques to gain deeper insights into the data:
 
+->Bar Charts: Display the average step count by day of the week and season.
 
-Bar Charts: Display the average step count by day of the week and season.
+->Line Graphs: Visualize step count trends over time (monthly and yearly).
 
-Line Graphs: Visualize step count trends over time (monthly and yearly).
+->Boxplots: Detect outliers and understand the variability in step counts.
 
-Boxplots: Detect outliers and understand the variability in step counts.
-
-Heatmaps: Show the correlation between different time periods and step counts.
+->Heatmaps: Show the correlation between different time periods and step counts.
 
 4. Machine Learning Models
 
-The project uses machine learning models to predict future step counts:
+->The project uses machine learning models to predict future step counts:
 
-Linear Regression: A simple model to predict step counts based on time features (year, month, day).
+->Linear Regression: A simple model to predict step counts based on time features (year, month, day).
 
-Polynomial Regression: A more complex model to capture non-linear patterns in step count data.
+->Polynomial Regression: A more complex model to capture non-linear patterns in step count data.
 
-Model Comparison: Both models were evaluated using Mean Absolute Error (MAE) and R² score to determine the best-performing model.
+->Model Comparison: Both models were evaluated using Mean Absolute Error (MAE) and R² score to determine the best-performing model.
 
 
 Goals
 
-The main goals of this project are:
+-The main goals of this project are:
 
-Understand personal activity patterns by analyzing daily, weekly, and seasonal trends in step counts.
+->Understand personal activity patterns by analyzing daily, weekly, and seasonal trends in step counts.
 
-Visualize step count data using insightful graphs.
+->Visualize step count data using insightful graphs.
 
-Build predictive models to forecast future step counts.
+->Build predictive models to forecast future step counts.
 
-Gain insights into how physical activity changes over time and identify areas for improvement.
+->Gain insights into how physical activity changes over time and identify areas for improvement.
 
 Tools and Technologies
 
 The following tools and technologies were used in this project:
 
-Python: For data analysis and visualization
+->Python: For data analysis and visualization
 
-Pandas: For data manipulation and cleaning
+->Pandas: For data manipulation and cleaning
 
-Matplotlib and Seaborn: For creating customized and aesthetically pleasing visualizations
+->Matplotlib and Seaborn: For creating customized and aesthetically pleasing visualizations
 
-Scikit-Learn: For building and evaluating machine learning models
+->Scikit-Learn: For building and evaluating machine learning models
 
 Future Work
 
-Collect more data to improve the accuracy of machine learning models.
+->Collect more data to improve the accuracy of machine learning models.
 
-Use advanced machine learning models (e.g., Random Forest or ARIMA) to better capture complex patterns in the data.
+->Use advanced machine learning models (e.g., Random Forest or ARIMA) to better capture complex patterns in the data.
 
-Incorporate additional features such as weather conditions or heart rate data to enhance analysis.
+->Incorporate additional features such as weather conditions or heart rate data to enhance analysis.
 
-Develop a step count recommendation system based on personal activity patterns and goals.
+->Develop a step count recommendation system based on personal activity patterns and goals.
