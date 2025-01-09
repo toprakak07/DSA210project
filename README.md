@@ -1,108 +1,75 @@
-Personal Listening Habits Analysis
 
-About the Project(Motivation)
+Step Count Analysis Project
 
-This project analyzes personal music listening habits by answering the following questions:
+About the Project (Motivation)
+This project analyzes personal step count data collected over the years, aiming to answer the following questions:
 
--> Which music genres do I listen to the most?
+->What are my daily, weekly, and monthly activity patterns?
+->How do my step counts vary by season?
+->Is there a noticeable difference in activity between weekdays and weekends?
+->Can I predict future step counts using machine learning models?
+->Are there any trends or correlations in my activity over time (e.g., increasing or decreasing levels of activity)?
 
--> At what times of the day do I listen to music?
-
--> Who are my most-listened-to artists, and what are my favorite songs?
-
--> How have my musical tastes changed over the years?
-
--> Can I examine the contribution of music to my work based on what hours I listen to music during the day and what type of music I listen to? 
-
-(For example, if I analyze the music I listened to during my university exam preparation in 2017, can these genres help in the work I do now?)
-
------------------------------------------------------------------------------------------------------------------------------
-
+Understanding personal activity patterns can provide valuable insights into overall health and fitness. By analyzing this data, I aim to improve my physical activity and set better goals for the future.
+--------------------------------------------------------------------------------------------------------------------------
 Data Source
-The data will be retrieved using the Spotify API, which provides access to:
+The data used in this project is personal step count data collected between 2022 and 2024 from a fitness tracker or mobile application. The data contains the following fields:
 
--> User's top tracks
+startDate: The starting time of the activity (in datetime format)
+endDate: The ending time of the activity (in datetime format)
+value: The total number of steps taken during the activity period
+The data has been processed and structured into a Pandas DataFrame for easier analysis and visualization.
 
--> User's top artists
+Project Plan
+1. Data Collection
+The step count data was exported from a fitness tracker application.
+The data was cleaned and structured into a format suitable for analysis using Python’s Pandas library.
+2. Data Analysis
+Exploratory Data Analysis (EDA)
+Missing Data: Checked for missing values and handled them appropriately.
+General Statistics: Computed key statistics such as mean, median, and standard deviation of step counts.
+Distribution Analysis:
+Analyzed the overall distribution of step counts using histograms and boxplots.
+Time-Based Analysis:
+Daily patterns: Identified variations in step counts by time of day (morning, afternoon, evening).
+Weekly patterns: Analyzed differences in step counts between weekdays and weekends.
+Seasonal trends: Explored how step counts vary by season (spring, summer, fall, winter).
+3. Visualization
+Step count patterns and trends have been visualized using various techniques to gain deeper insights into the data:
 
--> Playback times (hourly and daily data)
+Bar Charts:
+To display the average step count by day of the week and season.
+Line Graphs:
+To visualize step count trends over time (monthly and yearly).
+Boxplots:
+To detect outliers and understand the variability in step counts.
+Heatmaps:
+To show the correlation between different time periods and step counts.
+4. Machine Learning Models
+The project uses machine learning models to predict future step counts:
 
--> Genres of the tracks
-
--> Audio features of the tracks (e.g., danceability, energy, tempo, study, chill).
-
-Spotify API Endpoints:
--> `current_user_top_tracks` - To fetch the most-listened-to tracks.
-
--> `current_user_top_artists` - To fetch the most-listened-to artists.
-
--> `audio_features` - To retrieve detailed features of each track.
-
--> `recently_played` - To analyze listening history.
-
------------------------------------------------------------------------------------------------------------------------------
-
- Project Plan
-
- 1. Data Collection:
- 
-->Data will be retrieved using the Spotify API and processed with Python's `spotipy` library. The data will then be structured into a Pandas DataFrame for easier manipulation and analysis.
-
- 2. Data Analysis:
-
--> Exploratory Data Analysis (EDA):
-
-  -> Identify the most frequently listened-to music genres.
-    
-  -> Analyze music listening habits across different times of the day (e.g., morning, afternoon, evening).
-  
--> Top Artists and Tracks:
-
-  -> Determine the most-listened-to artists and tracks.
-  
--> Historical Trends:
-
-  -> Analyze how musical tastes have evolved over the years using time series data.
-
- 3.Visualization:
- 
-Music listening habits will be visualized using the following techniques:
-
--> Bar Charts: To display the most frequently listened-to genres and artists.
-
--> Heatmaps: To visualize the intensity of music listening habits throughout the day.
-
-->Line Graphs: To analyze changes in musical tastes over the years.
-
--> Scatter Plots: To explore the relationship between listening times and genres.
-
-Visualization tools:
-
--> Matplotlib and Seaborn For customized and aesthetically pleasing graphs.
-
--> Pandas Visualization For quick visual checks during data analysis.
-
------------------------------------------------------------------------------------------------------------------------------
-
+Linear Regression:
+A simple model to predict step counts based on time features (year, month, day).
+Polynomial Regression:
+A more complex model to capture non-linear patterns in step count data.
+Model Comparison:
+Both models were evaluated using Mean Absolute Error (MAE) and R² score to determine the best-performing model.
 Goals
+The main goals of this project are:
 
--> Explore and understand personal music listening habits.
-
--> Analyze and visualize Spotify data.
-
--> Gain insights into music preferences and explore opportunities for building a recommendation system.
-
--> Examine how listening habits influence productivity and work.
-
------------------------------------------------------------------------------------------------------------------------------
-
+Understand personal activity patterns by analyzing daily, weekly, and seasonal trends in step counts.
+Visualize step count data using insightful graphs.
+Build predictive models to forecast future step counts.
+Gain insights into how physical activity changes over time and identify areas for improvement.
 Tools and Technologies
+The following tools and technologies were used in this project:
 
--> Python: For data analysis and visualization.
-
--> Spotify API: To fetch user data.
-
--> Pandas: For data manipulation and cleaning.
-
--> Matplotlib and Seaborn: For creating insightful visualizations.
-
+Python: For data analysis and visualization
+Pandas: For data manipulation and cleaning
+Matplotlib and Seaborn: For creating customized and aesthetically pleasing visualizations
+Scikit-Learn: For building and evaluating machine learning models
+Future Work
+Collect more data to improve the accuracy of machine learning models.
+Use advanced machine learning models (e.g., Random Forest or ARIMA) to better capture complex patterns in the data.
+Incorporate additional features such as weather conditions or heart rate data to enhance analysis.
+Develop a step count recommendation system based on personal activity patterns and goals.
