@@ -131,9 +131,15 @@ This project provided valuable insights into personal activity patterns by analy
 Appendix
 
 Tools and Libraries Used:
+
 ->Python
+
 ->Pandas
+
 ->Matplotlib & Seaborn
+
 ->Scikit-Learn
+
 ->Statsmodels
+
 ->Dataset: Personal step count data collected from a fitness tracker application.
