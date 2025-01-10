@@ -11,8 +11,11 @@ Understanding personal activity patterns can provide valuable insights into over
 The data was collected using a fitness tracker or mobile application over the period of 2022 to 2024. It includes the following fields:
 
 ->startDate: Start time of the activity (datetime format)
+
 ->endDate: End time of the activity (datetime format)
+
 ->value: Total number of steps taken during the activity period
+
 ->The dataset was cleaned and structured into a Pandas DataFrame for analysis.
 
 3. Data Analysis
